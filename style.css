@@ -1,0 +1,50 @@
+#main-block {
+    width: 750px;
+    height: 300px;
+    margin: auto;
+    padding: 0;
+}
+
+#main-block>button {
+    width: 10%;
+    height: 100%;
+    float: left;
+    background-color: #fff;
+    border: 3px solid #232323;
+    font-size: 70px;
+    color: #232323;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+#main-block>button:hover {
+    background-color: #232323;
+    color: #fff;
+}
+
+#blockSlider {
+    width: 80%;
+    height: 98%;
+    background-color: #232323;
+    float: left;
+    overflow: hidden;
+    border-top: 3px solid #232323;
+    border-bottom: 3px solid #232323;
+}
+
+#slider {
+    width: 500000px;
+    position: relative;
+    transition: all 1s;
+    left: 0px;
+}
+
+.img-block {
+    width: 600px;
+    height: 300px;
+    float: left;
+}
+
+.img-block>img {
+    width: 100%;
+}
